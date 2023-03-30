@@ -1,0 +1,303 @@
+/* FONT IMPORTS*/
+@import url(https://fonts.bunny.net/css?family=architects-daughter:400);
+@import url(https://fonts.bunny.net/css?family=berkshire-swash:400);
+@import url(https://fonts.bunny.net/css?family=fira-sans-condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,800,800i,900,900i);
+@import url(https://fonts.bunny.net/css?family=fira-sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700i,800,800i,900,900i);
+@import url(https://fonts.bunny.net/css?family=black-ops-one:400);
+@import url(https://fonts.bunny.net/css?family=cabin-sketch:400,700);
+@import url(https://fonts.bunny.net/css?family=pt-sans:400,400i,700,700i);
+
+:root {
+  --ff-1: 'Berkshire Swash', handwriting;
+  --ff-2: 'Architects Daughter', handwriting;
+  --ff-3: 'Fira Sans Condensed', sans-serif;
+  --ff-4: 'Fira Sans', sans-serif;
+  --ff-5: 'Black Ops One', display;
+  --ff-6: 'Cabin Sketch', display;
+  --ff-7: 'PT Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+body {
+ /* #background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80'); */
+  background-image: linear-gradient(rgba(0, 8, 51, 0.6),rgba(0, 8, 51, 0.6)), url("img/background.avif");
+  
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+  /* background-color: #000; */
+ /*  backdrop-filter: blur(5px); */
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+a:hover {
+  color: burlywood;
+}
+
+.navbar .logo a:hover {
+  color:cornsilk;
+}
+
+/* HEADER */
+
+header {
+  position: relative;
+  padding: o 2rem;
+  margin-top: 22px;
+}
+
+.navbar {
+  width: 100%;
+  height: 68px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--ff-1);
+  color: burlywood;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+
+.navbar .toggle_btn {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.links {
+  transition: scale 0.2 ease;
+}
+
+.links li a {
+  font-family: var(--ff-4);
+  font-size: 1.17rem;
+}
+
+.links li:hover {
+  scale: 1.1;
+}
+
+.links li:active {
+  color: orange;
+}
+
+.house {
+  color: burlywood;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right:2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(13px);
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: var(--ff-4);
+  font-weight: 600;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open {
+  height: 240px;
+}
+
+.dropdown_menu li{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu li:hover {
+  /*background: rgba(246, 255, 0, 0.4);*/
+  /*background: rgba(34, 84, 95, 0.4);*/
+  background: rgba(57, 103, 108, 0.8);
+  border: none;
+  border-radius: 10px;
+}
+.dropdown_menu li a:hover {
+  color: rgba(246, 255, 0, 0.4);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1205px){
+  .navbar .links {
+    margin-right: 1rem;
+  }
+
+  .navbar .logo {
+    margin-left: 1rem;
+  }
+}
+
+/*.navbar li a:is(:link, :active, :visited){
+  color: white;
+}*/
+
+.navbar li a:is(:link, :active, :visited).active{
+  color:orange;
+}
+
+.naslov {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.naslov h1 a {
+  font-size: 72px;
+  color: aliceblue;
+}
+
+
+
+@media (max-width: 992px){
+
+  .navbar .links {
+    display: none;
+  }
+
+ .navbar .toggle_btn {
+    display: block;
+    margin-right: 2rem;
+  }
+
+  .dropdown_menu {
+    display: block;
+    width: 100%;
+    right: 0;
+    backdrop-filter: blur(8px);
+
+  }
+
+}
+
+@media (max-width: 576px) {
+  .dropdown_menu {
+    left: 0;
+    width: unset;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+}
+
+
+
+/* MAIN CONTENT */
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 150px;
+  justify-items: center;
+}
+
+.container{
+display: block;
+text-align: center;
+line-height: 2.2;
+/* background-color: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(2px); */
+border: none;
+border-radius: 10px;
+width: 100%;
+height: fit-content;
+}
+
+.list li {
+color: burlywood;
+font-family: var(--ff-7);
+font-size: 22px;
+font-weight: 700;
+
+}
+
+.list li:hover {
+  background-color: rgba(250, 235, 215, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.naslov-h2 {
+  color: antiquewhite;
+  border: 0.5px antiquewhite;
+  border-style:inset;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  max-width: 98%;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  margin-top: 100px;
+}
+
+.n-h2 {
+  color: antiquewhite;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.godina {
+  font-family: var(--ff-6);
+  font-size: 22px;
+}
+
+
+@media (max-width: 1100px) {
+  .main {
+    grid-template-columns: 1fr;
+    margin-top: 95px;
+  }
+
+  .container {
+    max-width: 70%;
+  }
+}
+
