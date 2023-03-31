@@ -33,7 +33,7 @@ body {
   /* background-repeat: no-repeat; */
   height: 100vh;
   background-color: transparent;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(13px);
 }
 
 
