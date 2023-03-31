@@ -32,8 +32,8 @@ body {
   background-size: cover;
   /* background-repeat: no-repeat; */
   height: 100vh;
-  background-color: black;
-  opacity: 30%;
+  background-color: darkblue;
+  opacity: 20%;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
