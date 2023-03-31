@@ -33,7 +33,7 @@ body {
   /* background-repeat: no-repeat; */
   height: 100vh;
   background-color: darkblue;
-  opacity: 20%;
+  opacity: 30%;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
