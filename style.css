@@ -27,14 +27,14 @@
 body {
  /* #background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80'); */
   /*background-image: linear-gradient(rgba(0, 8, 51, 0.6),rgba(0, 8, 51, 0.6)), url("img/background.avif");*/
-  background-image: linear-gradient(rgba(0, 8, 51, 0.6),rgba(0, 8, 51, 0.6)), url("img/bg.png");
+  background-image: linear-gradient(rgba(0, 8, 51, 0.5),rgba(0, 8, 51, 0.5)), url("img/bg.png");
   background-position: center;
   background-size: cover;
   /* background-repeat: no-repeat; */
   height: 100vh;
- background-color: black;
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px)
+ /* background-color: black; */
+/*   backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px) */
 }
 
 
@@ -182,7 +182,7 @@ header {
 }
 
 .naslov h1 a {
-  font-size: 72px;
+  font-size: 40px;
   color: aliceblue;
 }
 
@@ -228,9 +228,9 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 7px;
-  margin-left: 20px;
+  margin-left: 45px;
   margin-right: 20px;
-  margin-top: 150px;
+  margin-top: 100px;
   justify-items: center;
 }
 
@@ -242,7 +242,7 @@ line-height: 2.2;
 backdrop-filter: blur(2px); */
 border: none;
 border-radius: 10px;
-width: 100%;
+width: 115%;
 height: fit-content;
 }
 
