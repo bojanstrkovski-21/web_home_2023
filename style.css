@@ -262,7 +262,7 @@ font-weight: 700;
 
 .naslov-h2 {
   color: antiquewhite;
-  border: 0.5px antiquewhite;
+  <!--border: 0.5px antiquewhite;-->
   border-style:inset;
   border-radius: 10px;
   margin-bottom: 5px;
