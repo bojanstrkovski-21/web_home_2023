@@ -303,7 +303,9 @@ footer {
     margin-left: 10px;
   }
  
- 
+  .list li {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 1300px) {
