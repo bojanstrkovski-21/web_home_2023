@@ -1,0 +1,93 @@
+/* FONT IMPORTS*/
+@import url(https://fonts.bunny.net/css?family=architects-daughter:400);
+@import url(https://fonts.bunny.net/css?family=berkshire-swash:400);
+@import url(https://fonts.bunny.net/css?family=fira-sans-condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,800,800i,900,900i);
+@import url(https://fonts.bunny.net/css?family=fira-sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700i,800,800i,900,900i);
+@import url(https://fonts.bunny.net/css?family=black-ops-one:400);
+@import url(https://fonts.bunny.net/css?family=cabin-sketch:400,700);
+@import url(https://fonts.bunny.net/css?family=pt-sans:400,400i,700,700i);
+
+:root {
+  --ff-1: 'Berkshire Swash', handwriting;
+  --ff-2: 'Architects Daughter', handwriting;
+  --ff-3: 'Fira Sans Condensed', sans-serif;
+  --ff-4: 'Fira Sans', sans-serif;
+  --ff-5: 'Black Ops One', display;
+  --ff-6: 'Cabin Sketch', display;
+  --ff-7: 'PT Sans', sans-serif;
+
+  --clr-bg: #354059;
+  --clr-yellow: #d79921;
+  --clr-samanta: #00ffff;
+  --clr-dsamanta: #10ebe4;
+  --clr-purple: rgb(189, 147, 249);
+  --clr-dpurple: rgba(189, 147, 249, 0.17);
+  --clr-lgreen: #50fa7b;
+  --clr-dgreen: rgba(80, 250, 123, 0.7);
+  --clr-white: #f8f8f2;
+  --clr-dwhite: #eeeeee;
+  --clr-dim1: hsl(265 89% 70%);
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-bg);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-yellow);
+    font-family: var(--ff-6);
+    font-size: 3.5rem;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-bottom: 40px;
+    font-family: var(--ff-3);
+    font-size: 1.45rem;
+    color: var(--clr-purple);
+}
+
+.container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    justify-items: center;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    line-height: 1.6;
+}
+
+ul li a,
+ul a li {
+    color: var(--clr-dsamanta);
+    text-decoration: none;
+    font-family: var(--ff-4);
+    font-size: 1.2rem;
+}
+
+ul a li:hover {
+    background-color: var(--clr-dpurple);
+    border-radius: 7px;
+}
+
+
+ul a {
+    text-decoration: none;
+}
+
