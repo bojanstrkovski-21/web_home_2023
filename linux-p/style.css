@@ -39,7 +39,6 @@
 
 body {
     background-color: var(--clr-bg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
