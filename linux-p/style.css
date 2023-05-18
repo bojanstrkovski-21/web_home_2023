@@ -38,7 +38,7 @@
 }
 
 body {
-    background-color: var(--clr-bg);
+    background: var(--clr-bg);
 }
 
 h1 {
