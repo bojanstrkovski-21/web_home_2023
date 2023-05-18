@@ -36,6 +36,9 @@
     margin: 0;
     padding: 0;
     background-color: var(--clr-bg);
+}
+
+body {
     background-repeat: no-repeat;
     background-size: cover;
 }
