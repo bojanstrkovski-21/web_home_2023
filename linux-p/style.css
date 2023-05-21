@@ -94,3 +94,27 @@ ul a {
     text-decoration: none;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .n-h2 {
+    color: antiquewhite;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: var(--ff-4);
+    color: var(--clr-dim1);
+  }
+  
+  .godina {
+    font-family: var(--ff-6);
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--clr-yellow);
+  }
