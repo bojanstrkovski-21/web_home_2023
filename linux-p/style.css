@@ -39,6 +39,7 @@
 
 body {
     background-color: var(--clr-bg);
+    background-size: cover;
 }
 
 h1 {
