@@ -20,7 +20,7 @@
   --clr-yellow: #d79921;
   --clr-samanta: #00ffff;
   --clr-dsamanta: #10ebe4;
-  --clr-purple: rgb(189, 147, 249);
+  --clr-purple: #bd93f9;
   --clr-dpurple: rgba(189, 147, 249, 0.17);
   --clr-lgreen: #50fa7b;
   --clr-dgreen: rgba(80, 250, 123, 0.7);
@@ -38,7 +38,7 @@
 }
 
 body {
-    background: var(--clr-bg);
+    background-color: var(--clr-bg);
 }
 
 h1 {
