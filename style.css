@@ -211,6 +211,9 @@ header {
 }
 
 @media (max-width: 576px) {
+  body {
+   height: auto; 
+  }
   .dropdown_menu {
     left: 0;
     width: unset;
