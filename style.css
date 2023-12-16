@@ -320,10 +320,9 @@ footer {
 
 
 @media (max-width: 1230px) {
- 
- 
- body {
-  background-repeat: no-repeat;
+  body {
+    height: auto;
+    background-repeat: no-repeat;
  }
  
   .main {
