@@ -26,8 +26,8 @@
   --clr-dgreen: rgba(80, 250, 123, 0.7);
   --clr-white: #f8f8f2;
   --clr-dwhite: #eeeeee;
-  --clr-dim1: hsl(265 89% 70%);
-
+  --clr-dim1: hsl(265, 90%, 70%);
+  --clr-drac: #4e376e;
 }
 
 
