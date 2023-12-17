@@ -8,13 +8,13 @@
 @import url(https://fonts.bunny.net/css?family=pt-sans:400,400i,700,700i);
 
 :root {
-  --ff-1: 'Berkshire Swash', handwriting;
-  --ff-2: 'Architects Daughter', handwriting;
-  --ff-3: 'Fira Sans Condensed', sans-serif;
-  --ff-4: 'Fira Sans', sans-serif;
-  --ff-5: 'Black Ops One', display;
-  --ff-6: 'Cabin Sketch', display;
-  --ff-7: 'PT Sans', sans-serif;
+  --ff-1: "Berkshire Swash", handwriting;
+  --ff-2: "Architects Daughter", handwriting;
+  --ff-3: "Fira Sans Condensed", sans-serif;
+  --ff-4: "Fira Sans", sans-serif;
+  --ff-5: "Black Ops One", display;
+  --ff-6: "Cabin Sketch", display;
+  --ff-7: "PT Sans", sans-serif;
 
   --clr-bg: #354059;
   --clr-yellow: #d79921;
@@ -30,91 +30,100 @@
   --clr-drac: #4e376e;
 }
 
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: var(--clr-bg);
-    background-size: cover;
+  background-color: var(--clr-bg);
+  background-size: cover;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--clr-yellow);
-    font-family: var(--ff-6);
-    font-size: 3.5rem;
-    font-style: italic;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-yellow);
+  font-family: var(--ff-6);
+  font-size: 3.5rem;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.logo a,
+.logo a:visited,
+.logo a:hover,
+.logo a:focus,
+.logo a:active {
+  text-decoration: none;
+}
+
+ {
+  text-decoration: none;
 }
 
 h3 {
-    margin-bottom: 40px;
-    font-family: var(--ff-3);
-    font-size: 1.45rem;
-    color: var(--clr-purple);
+  margin-bottom: 40px;
+  font-family: var(--ff-3);
+  font-size: 1.45rem;
+  color: var(--clr-purple);
 }
 
 .container {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width: 100%;
-    justify-items: center;
-
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  justify-items: center;
 }
 
 .nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    list-style: none;
-    line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  line-height: 1.6;
 }
 
 ul li a,
 ul a li {
-    color: var(--clr-dsamanta);
-    text-decoration: none;
-    font-family: var(--ff-4);
-    font-size: 1.2rem;
+  color: var(--clr-dsamanta);
+  text-decoration: none;
+  font-family: var(--ff-4);
+  font-size: 1.2rem;
 }
 
 ul a li:hover {
-    background-color: var(--clr-dpurple);
-    border-radius: 7px;
+  background-color: var(--clr-dpurple);
+  border-radius: 7px;
 }
 
-
 ul a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-top: 40px;
-  }
-  
-  .n-h2 {
-    font-size: 17px;
-    font-style: italic;
-    font-weight: 500;
-    font-family: var(--ff-4);
-    color: var(--clr-dim1);
-  }
-  
-  .godina {
-    font-family: var(--ff-6);
-    font-size: 23px;
-    font-weight: 400;
-    color: var(--clr-yellow);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.n-h2 {
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 500;
+  font-family: var(--ff-4);
+  color: var(--clr-dim1);
+}
+
+.godina {
+  font-family: var(--ff-6);
+  font-size: 23px;
+  font-weight: 400;
+  color: var(--clr-yellow);
+}
