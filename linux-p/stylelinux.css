@@ -47,7 +47,7 @@ h1 {
   margin-top: 25px;
 }
 
-.logo a {
+h1 .logo a {
   color: var(--clr-yellow);
 }
 
