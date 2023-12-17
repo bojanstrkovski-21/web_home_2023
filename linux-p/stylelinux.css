@@ -34,33 +34,28 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
   background-color: var(--clr-bg);
-  background-size: cover;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--clr-yellow);
   font-family: var(--ff-6);
   font-size: 3.5rem;
   font-style: italic;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
-.logo a,
-.logo a:visited,
-.logo a:hover,
-.logo a:focus,
-.logo a:active {
-  text-decoration: none;
+.logo a {
+  color: var(--clr-yellow);
 }
 
- {
+h1 .logo a,
+h1 .logo a:visited,
+h1 .logo a:hover,
+h1 .logo a:focus,
+h1 .logo a:active {
   text-decoration: none;
 }
 
@@ -72,7 +67,7 @@ h3 {
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
