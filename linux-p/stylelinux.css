@@ -70,7 +70,7 @@ h3 {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 100%;
+  width: 90%;
   justify-items: center;
 }
 
