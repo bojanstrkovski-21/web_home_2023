@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -212,7 +212,7 @@ header {
 
 @media (max-width: 576px) {
   body {
-   height: auto; 
+   height: auto;
   }
   .dropdown_menu {
     left: 0;
@@ -301,18 +301,18 @@ footer {
 }
 
 @media (max-width: 1670px) {
- 
+
   .main {
     margin-left: 10px;
   }
- 
+
   .list li {
     font-size: 17px;
   }
 }
 
 @media (max-width: 1300px) {
-  
+
   .list li {
     font-size: 16px;
   }
@@ -324,7 +324,7 @@ footer {
     height: auto;
     background-repeat: no-repeat;
  }
- 
+
   .main {
     grid-template-columns: 1fr;
     margin-top: 95px;
