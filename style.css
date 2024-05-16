@@ -364,7 +364,7 @@ footer {
   border-radius: 11px;
 }
 .kalkulator {
-  justify-items: center;
+  text-align: center;
 }
 
 .servis:hover {
