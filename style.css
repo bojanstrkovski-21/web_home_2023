@@ -363,6 +363,9 @@ footer {
   font-family: var(--ff-7);
   border-radius: 11px;
 }
+.kalkulator {
+  text-align: center;
+}
 
 .servis:hover {
   background-color: rgba(255, 255, 255, 0.04);
